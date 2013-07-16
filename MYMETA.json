@@ -1,0 +1,62 @@
+{
+   "abstract" : "PSGI middleware for server side include content",
+   "author" : [
+      "Jan Henning Thorsen C<< jhthorsen at cpan.org >>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.112621",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Plack-Middleware-SSI",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36",
+            "Test::More" : "0.98"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::Basename" : "2.7",
+            "HTTP::Date" : "5.831",
+            "HTTP::Message" : "5.82",
+            "HTTP::Request" : "5.82",
+            "HTTP::Response" : "5.82",
+            "POSIX" : "1.1",
+            "Plack" : "0.98",
+            "base" : "2.1"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Plack-Middleware-SSI"
+      },
+      "homepage" : "http://search.cpan.org/dist/Plack-Middleware-SSI",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/jhthorsen/plack-middleware-ssi.git"
+      }
+   },
+   "version" : "0.11"
+}
